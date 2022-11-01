@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(65, 43, 255);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#input-data {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.input-text{
+    flex: 1;
+    min-width: 210px;
+    margin: 5px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+    transition: 0.25s;
+    outline: none;
+}
+
+.input-btn {
+    flex: 1;
+    margin: 5px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3 all ease;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#tableCRUD {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-collapse: collapse;
+}
+
+#tableCRUD th {
+    background-color: rgb(65, 43, 255);
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+#tableCRUD td,th {
+    border: 0.5px solid #ccc;
+    padding: 6px;
+}
+
+#tableCRUD td {
+    padding: 6px;
+}
+
+
+#tableCRUD tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tableCRUD tr:hover {
+    background-color: #ccc;
+}
+
+.remove-btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
